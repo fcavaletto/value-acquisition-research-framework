@@ -1,6 +1,14 @@
 # Learning values that endure
 
-Research repository for a programme on how models can acquire values and apply them in behavior that holds up under pressure.
+A research programme on how models can acquire values and apply them in behavior that holds up under pressure.
+
+**Owner:** Federico Cavaletto ([@fcavaletto](https://github.com/fcavaletto))  
+**Stage:** Research framework and repository hygiene. No empirical experiment has been selected or run.  
+**License:** [MIT](LICENSE)
+
+This repository is meant to show research judgment before results: a clear question, explicit open choices, a decision log, and an experiment template that separates protocol from findings. Useful progress here will look like a narrow study with honest limits, not a large codebase.
+
+Cursor agents assisted with scaffolding and documentation under [AGENTS.md](AGENTS.md). Scientific direction, the choice of first experiment, contested labels, and interpretation remain the owner's responsibility. Agent agreement is not independent scientific evidence.
 
 ## Purpose
 
@@ -40,7 +48,7 @@ Anyone directing an agent in this repository should also read [AGENTS.md](AGENTS
 
 ## How a new experiment begins
 
-1. Agree the primary question with the research owner, and record that decision in [docs/decisions.md](docs/decisions.md).
+1. Agree the primary question with the research owner (Federico Cavaletto), and record that decision in [docs/decisions.md](docs/decisions.md).
 2. Copy `experiments/_template/` to `experiments/NNN-short-name/`, using the next free number.
 3. Write the protocol before collecting results. Name the connection to the charter and keep one primary question.
 4. Use development material to refine the study. Keep confirmation data separate. Implementation work may read a confirmation set only when the research owner explicitly authorizes that access.
