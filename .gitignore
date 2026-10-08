@@ -1,0 +1,42 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+credentials.json
+secrets/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.gguf
+*.onnx
+checkpoints/
+weights/
+
+# Large generated artifacts
+outputs/
+artifacts/
+wandb/
+mlruns/
+data/generated/
+data/external/
+
+# Local copies of protected confirmation data.
+# Ignoring this path is not an access control. See data/README.md.
+data/confirmation/
+
+# OS and editor files
+.DS_Store
