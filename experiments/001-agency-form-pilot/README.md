@@ -16,7 +16,7 @@ The intervention, when it is eventually run, is continued training of an already
 
 Included: one provisional value, respect for human agency, covering informed consent, meaningful refusal, and limits of delegated authority. Two teaching forms: stories and explanatory essays. A bounded measurement effort in support of that comparison.
 
-Left for later studies: other values, other teaching forms, a full incentive and monitoring design, durability under subsequent training, and mechanistic work. A small slice of incentive and monitoring conditions may be specified in Phase 2. It is not designed here.
+Left for later studies: other values, other teaching forms, a full incentive and monitoring design, durability under subsequent training, and mechanistic work. The proposed protocol includes a small uncrossed slice of task-score conflict and monitoring cues. That slice is not approved.
 
 ## Working sequence
 
@@ -40,7 +40,7 @@ These phases are the working sequence for this study. Phases 2–6 are planned. 
 
 **Dependencies.** The Phase 1 report, and review by the research owner. The open choices are listed in [handoff.md](handoff.md).
 
-**Completion.** The owner has approved the protocol, and the choices that affect the claim are recorded in [docs/decisions.md](../../docs/decisions.md).
+**Completion.** The owner has accepted, revised, or rejected the proposed choices, and those choices are recorded in [docs/decisions.md](../../docs/decisions.md). Drafting the proposal does not complete this phase.
 
 ### 3. Teaching materials and evaluation development
 
@@ -95,13 +95,13 @@ flowchart TD
 
 ## Dependencies
 
-The scientific choices still open are in [docs/open_questions.md](../../docs/open_questions.md) and [handoff.md](handoff.md). The decision to start this study is in [docs/decisions.md](../../docs/decisions.md).
+The scientific choices still open are in [docs/open_questions.md](../../docs/open_questions.md), [protocol.md](protocol.md), and [handoff.md](handoff.md). The decision to start this study is in [docs/decisions.md](../../docs/decisions.md). Recommendations in the protocol are not decisions.
 
-Phase 1 uses a configuration, not a committed study model: `Qwen/Qwen3-4B-Instruct-2507`, MLX-LM, 4-bit weights, and LoRA. `Qwen/Qwen3-4B-MLX-4bit` is a different checkpoint and is not a substitute.
+Phase 1 used a configuration, not a committed study model: `Qwen/Qwen3-4B-Instruct-2507`, MLX-LM, 4-bit weights, and LoRA. The protocol proposes to keep it. `Qwen/Qwen3-4B-MLX-4bit` is a different checkpoint and is not a substitute.
 
 ## Status
 
-Phase 1 has been run. The report is in [results.md](results.md). The pinned 4-bit checkpoint loaded, generated, trained for 20 updates, and reloaded an adapter. That run does not show value acquisition. Phases 2–6 have not started. No teaching corpus and no comparative pilot exist. Smoke-test fixtures under [data/fixtures/phase1/](../../data/fixtures/phase1/README.md) are pipeline checks. They are not held-out evaluation items.
+Phase 1 has been run. The report is in [results.md](results.md). A proposed study protocol is in [protocol.md](protocol.md). The Phase 1 protocol is preserved in [phase1_protocol.md](phase1_protocol.md). Illustrative development texts are in [data/development/001-agency-form-pilot/](../../data/development/001-agency-form-pilot/README.md). They are not approved, not a training corpus, and not held-out items. No comparative pilot has been run. Smoke-test fixtures under [data/fixtures/phase1/](../../data/fixtures/phase1/README.md) stay ineligible for evaluation.
 
 ## Reproduce the smoke tests
 

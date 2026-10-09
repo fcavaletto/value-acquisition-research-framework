@@ -49,3 +49,7 @@ Routine implementation inside an already agreed scope does not need an entry. A 
 - **Evidence:** The owner's Phase 1 instruction of 8 October 2026. No teaching materials, pilot training, or evaluation results existed when the choice was made. Suitability of the local setup is a later finding, recorded in the experiment's results file if a run occurs.
 - **Decision-maker:** Federico Cavaletto.
 - **Affected work:** [experiments/001-agency-form-pilot/](../experiments/001-agency-form-pilot/README.md). Open questions 1 and the value named in question 2. The operational boundaries of agency, the primary outcome, controls, human review, and compute limits remain open for Phase 2.
+
+## Proposals awaiting the owner
+
+A proposed study protocol was drafted on 9 October 2026 in [experiments/001-agency-form-pilot/protocol.md](../experiments/001-agency-form-pilot/protocol.md). Its decision table recommends resolutions of the remaining scientific choices. Those recommendations are not decisions. A row becomes a decision only when the research owner records it in this log.

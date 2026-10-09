@@ -18,7 +18,7 @@ Small reviewed training sets may be committed. Large ones stay outside Git. See 
 
 Development cases are used to refine tasks, prompts, scorers, and methods. Once a case has influenced those choices, it is development data. It is not a confirmation set.
 
-Keep development cases in a versioned location named by the experiment, and point to that version from the protocol. Suggested path for material that is small and shareable: `data/development/`.
+Keep development cases in a versioned location named by the experiment, and point to that version from the protocol. Suggested path for material that is small and shareable: `data/development/`. Illustrative teaching pairs and evaluation scenarios for the first study are in [data/development/001-agency-form-pilot/](development/001-agency-form-pilot/README.md). They are unreviewed drafts. They are not a training corpus and not a confirmation set.
 
 ## Protected confirmation sets
 

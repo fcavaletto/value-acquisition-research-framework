@@ -1,6 +1,6 @@
 # Status
 
-Updated 9 October 2026.
+Updated 9 October 2026, after the Phase 2 review package was drafted.
 
 **Research owner:** Federico Cavaletto ([@fcavaletto](https://github.com/fcavaletto)).
 
@@ -31,8 +31,10 @@ The working sequence is in [experiments/001-agency-form-pilot/README.md](../expe
 5. Remote GPU replication and expansion.
 6. Further studies of incentives, monitoring, durability, other values, and teaching forms.
 
-Phases 2–6 are planned. They are not a promise, and they are not started. Phase 1 has been run on the local Mac. The 4-bit MLX conversion of `Qwen/Qwen3-4B-Instruct-2507` loaded, generated with its chat template, executed one parsed toy action, trained a LoRA adapter for 20 updates, and reloaded it. The report is in [experiments/001-agency-form-pilot/results.md](../experiments/001-agency-form-pilot/results.md). That configuration is still not the study's committed model until Phase 2 says so. The smoke-test fixtures are not research evaluation items. The run does not support a finding about value acquisition. No pilot training has been run.
+Phases 3–6 are not started. Phase 1 has been run on the local Mac. The 4-bit MLX conversion of `Qwen/Qwen3-4B-Instruct-2507` loaded, generated with its chat template, executed one parsed toy action, trained a LoRA adapter for 20 updates, and reloaded it. The report is in [experiments/001-agency-form-pilot/results.md](../experiments/001-agency-form-pilot/results.md). That configuration is still not the study's committed model. The smoke-test fixtures are not research evaluation items. The run does not support a finding about value acquisition. No pilot training has been run.
+
+A proposed study protocol is in [experiments/001-agency-form-pilot/protocol.md](../experiments/001-agency-form-pilot/protocol.md), with illustrative development texts under [data/development/001-agency-form-pilot/](../data/development/001-agency-form-pilot/README.md). The proposals are not approved. No held-out set has been written.
 
 ## Next discussion
 
-Phase 2 is an owner-reviewed study specification. The decisions it must settle are listed in the experiment [handoff](../experiments/001-agency-form-pilot/handoff.md). The feasibility report is available for that discussion. This page is not approval to generate teaching documents or start pilot training.
+The owner reviews the proposed protocol and its decision table. Accepted choices are recorded in [decisions.md](decisions.md). This page is not that approval, and it is not approval to generate the training corpus or start pilot training.
