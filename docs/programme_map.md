@@ -1,6 +1,6 @@
 # Programme map
 
-This page maps the candidate subprojects in the [research charter](research_framework.md). They are a portfolio of bounded investigations serving one programme. They are not a committed roadmap, a promise to run every study, or a schedule. No deadlines are set here. The first empirical experiment has not been selected. See [open questions](open_questions.md) and [decisions](decisions.md).
+This page maps the candidate subprojects in the [research charter](research_framework.md). They are a portfolio of bounded investigations serving one programme. They are not a committed roadmap, a promise to run every study, or a schedule. No deadlines are set here. The research owner has selected the first study: a teaching-form comparison of stories and explanatory essays about respect for human agency, with measurement work only in support of that comparison. Its working phases are in [experiments/001-agency-form-pilot/README.md](../experiments/001-agency-form-pilot/README.md). That sequence does not replace this map. See [open questions](open_questions.md) and [decisions](decisions.md).
 
 The charter keeps three hypotheses separate. An experiment may address one of them.
 
@@ -113,4 +113,4 @@ Read the diagram with these limits:
 
 ## Execution order is a separate choice
 
-Logical dependence limits what a result can mean. It does not choose which study happens first, how long it takes, or which model it uses. The charter says to prioritize a question with plausible safety relevance, a clear competing explanation, feasible compute and human review, and a useful null result. That choice remains an explicit research-owner decision. Timing, sample size, models, and compute follow a pilot after the study is chosen.
+Logical dependence limits what a result can mean. It does not choose which study happens first, how long it takes, or which model it uses. The charter says to prioritize a question with plausible safety relevance, a clear competing explanation, feasible compute and human review, and a useful null result. The research owner has made that choice for the first study. See the decision log. Timing, sample size, the committed model, and compute still follow a reviewed specification and a pilot. The six phases in the first experiment folder are a working sequence for that study. They are not a schedule for subprojects A–G.

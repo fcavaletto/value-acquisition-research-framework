@@ -1,8 +1,8 @@
 # Experiments
 
-Each empirical study lives in its own numbered folder. No study has been selected or run. The only folder here is `_template/`, which is a pattern to copy, not an experiment.
+Each empirical study lives in its own numbered folder. The research owner has selected the first study. It is [001-agency-form-pilot](001-agency-form-pilot/README.md): a teaching-form comparison of stories and explanatory essays about respect for human agency, with measurement development only in support of that comparison. Phase 1 is local feasibility. Later phases are planned there and are not started by the existence of the folder. `_template/` remains a pattern to copy, not an experiment.
 
-Scientific direction stays in the [research charter](../docs/research_framework.md). The [programme map](../docs/programme_map.md) names candidate subprojects. Choosing the first study is recorded in [docs/decisions.md](../docs/decisions.md) when the research owner makes that choice.
+Scientific direction stays in the [research charter](../docs/research_framework.md). The [programme map](../docs/programme_map.md) names candidate subprojects. The choice of first study is recorded in [docs/decisions.md](../docs/decisions.md).
 
 ## Create a numbered experiment
 

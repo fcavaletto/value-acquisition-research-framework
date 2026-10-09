@@ -3,7 +3,7 @@
 A research programme on how models can acquire values and apply them in behavior that holds up under pressure.
 
 **Owner:** Federico Cavaletto ([@fcavaletto](https://github.com/fcavaletto))  
-**Stage:** Research framework and repository hygiene. No empirical experiment has been selected or run.  
+**Stage:** First study selected. Phase 1 local feasibility has been run. No comparative pilot has been run.  
 **License:** [MIT](LICENSE)
 
 This repository is meant to show research judgment before results: a clear question, explicit open choices, a decision log, and an experiment template that separates protocol from findings. Useful progress here will look like a narrow study with honest limits, not a large codebase.
@@ -24,7 +24,7 @@ Scientific direction comes from the research charter: [docs/research_framework.m
 
 ## Current status
 
-No empirical experiment has been selected or run. This repository holds the charter, a map of candidate subprojects, a decision log, open questions, and an experiment template. See [docs/status.md](docs/status.md).
+The first study has been selected: stories versus explanatory essays, on respect for human agency, with measurement work only in support of that comparison. Phase 1 local feasibility has been run. The report is in [experiments/001-agency-form-pilot/results.md](experiments/001-agency-form-pilot/results.md). Phase 2 has not started. See [docs/status.md](docs/status.md).
 
 ## Start here
 

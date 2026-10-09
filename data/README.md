@@ -1,12 +1,12 @@
 # Data
 
-No datasets are stored in this repository yet. This page says how to handle them when an experiment needs them. See also [experiments/README.md](../experiments/README.md) and [.gitignore](../.gitignore).
+No training sets or evaluation sets are stored in this repository yet. This page says how to handle them when an experiment needs them. See also [experiments/README.md](../experiments/README.md) and [.gitignore](../.gitignore).
 
 ## Small public fixtures
 
 A fixture is a tiny public example used to show a file format or to exercise a loader. It may be committed when it contains no private information and is small enough to review in Git. A fixture is not a training set, a development set, or evidence about a model.
 
-Suggested path: `data/fixtures/`. Create it with the first fixture.
+Suggested path: `data/fixtures/`. The first fixtures are the Phase 1 smoke tests in [data/fixtures/phase1/](fixtures/phase1/README.md). They exercise the loader and the mock environment. They are not a training set, a development set, or evidence about a model, and they must not be reused as held-out evaluation items.
 
 ## Training data
 

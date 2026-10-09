@@ -25,6 +25,7 @@ venv/
 *.onnx
 checkpoints/
 weights/
+adapters/
 
 # Large generated artifacts
 outputs/

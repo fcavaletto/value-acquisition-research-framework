@@ -1,0 +1,8 @@
+# Project-local runtime for Phase 1. Do not install this into the system Python.
+# Create the environment from the repository root:
+#   /opt/homebrew/bin/python3.12 -m venv .venv
+#   .venv/bin/python -m pip install -r requirements.txt
+#
+# mlx-lm 0.32.0 requires Python >=3.11 and pulls mlx, transformers, and the
+# training extra used by mlx_lm.lora.
+mlx-lm[train]==0.32.0
